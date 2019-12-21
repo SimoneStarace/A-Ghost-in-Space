@@ -1,21 +1,25 @@
 ﻿using UnityEngine;
 using TMPro;
+/// <summary>
+/// Takes care of all the UI in the game.
+/// </summary>
 public class UIManager : MonoBehaviour
 {
+    /// <summary>
+    /// Reference to the text component.
+    /// </summary>
     [SerializeField]
-    private TextMeshProUGUI _storyText;
-    // Start is called before the first frame update
-    void Start()
+    private TextMeshProUGUI _uiTextStory = null;
+    
+    /// <summary>
+    /// Update the text component.
+    /// </summary>
+    /// <param name="text">Text to change in the component.</param>
+    public void UpdateStoryText(string text)
     {
-        if(_storyText)
+        if(_uiTextStory)
         {
-            _storyText.text = "Hello World!";
+            _uiTextStory.text = text;
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
