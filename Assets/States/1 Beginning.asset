@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5760b41eae4a3f4fa40c23adcd4f6d5, type: 3}
   m_Name: 1 Beginning
   m_EditorClassIdentifier: 
-  _storyText: 'You are traveling in space and wonder what will you find today. '
+  _storyText: "You're travelling through space alone. During your journey you find
+    yourself in front of an asteroid field and on the left a mysterious ship you've
+    never seen before.\r\n\r\nWhat you will do?\n\n1) Enter the <b>Asteroid field</b>.\r\n2)
+    Follow the <b>Misterious Ship</b>."
   _states:
-  - {fileID: 11400000, guid: 2daba931de216dd49956310b202ea7b4, type: 2}
+  - {fileID: 11400000, guid: 179721adaa9fa634aba2a64ded6de147, type: 2}
+  - {fileID: 11400000, guid: e12c605fdb543b648998fc3dfe759129, type: 2}

@@ -6,11 +6,20 @@ using TMPro;
 public class UIManager : MonoBehaviour
 {
     /// <summary>
-    /// Reference to the text component.
+    /// Reference to the TextMeshPro component.
     /// </summary>
     [SerializeField]
-    private TextMeshProUGUI _uiTextStory = null;
-    
+    private TextMeshProUGUI _uiTextStory = null,
+                            _uiVersionText = null;
+
+    private void Start()
+    {
+        if(_uiVersionText)
+        {
+            _uiVersionText.text = "Version: " + ApplicationManager.GetVersion();
+        }
+    }
+
     /// <summary>
     /// Update the text component.
     /// </summary>
@@ -22,4 +31,10 @@ public class UIManager : MonoBehaviour
             _uiTextStory.text = text;
         }
     }
+
+    /// <summary>
+    /// Takes an url for open a webpage.
+    /// </summary>
+    /// <param name="url">The url of the webpage.</param>
+    public void OpenWebPageByUrl(string url) => ApplicationManager.OpenWebPage(url);
 }

@@ -10,13 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5760b41eae4a3f4fa40c23adcd4f6d5, type: 3}
-  m_Name: Credits
+  m_Name: 2A Asteroid Field
   m_EditorClassIdentifier: 
-  _storyText: 'Credits:
-
-    Space Background: Miriam Espacio on Pexels.
-
-
-    1) Come back to the <b>Intro</b>.'
+  _storyText: "You decided to enter the Asteroid Field. During your exploration you
+    find out a big asteroid where you can enter in:\r\n\r\nWhat you will do?\r\n\r\n1)
+    Enter the big asteroid.\r\n2) Ignore it and keep exploring the area."
   _states:
-  - {fileID: 11400000, guid: 2daba931de216dd49956310b202ea7b4, type: 2}
+  - {fileID: 11400000, guid: 8da9b8154e8c1e04bafe53bc53225aed, type: 2}
+  - {fileID: 0}

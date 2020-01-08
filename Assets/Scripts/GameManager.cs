@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-
 /// <summary>
 /// Takes in control of all the game.
 /// </summary>
@@ -39,19 +38,27 @@ public class GameManager : MonoBehaviour
             if(Input.GetKeyDown(KeyCode.Alpha1+i))
             {
 #if UNITY_EDITOR
-                Debug.Log("Input " + (KeyCode.Alpha1+i) + " has been pressed.");
+                Debug.Log("Input " + (KeyCode.Alpha1 + i) + " has been pressed.");
 #endif
-                //Get the state from the list.
-                State s;
-                //Check if the State is not null
-                if(s = _actualState.GetStateByIndex(i))
-                {
-                    //Update the state
-                    _actualState = s;
-                    //Update the text in the UI Manager.
-                    _uiManager.UpdateStoryText(_actualState.GetStoryText());
-                }
+                UpdateState(i);
             }
+        }
+    }
+    /// <summary>
+    /// Update the state of the story.
+    /// </summary>
+    /// <param name="i">Index to search.</param>
+    private void UpdateState(byte i)
+    {
+        //Get the state from the list.
+        State s;
+        //Check if the State is not null
+        if (s = _actualState.GetStateByIndex(i))
+        {
+            //Update the state
+            _actualState = s;
+            //Update the text in the UI Manager.
+            _uiManager.UpdateStoryText(_actualState.GetStoryText());
         }
     }
 }

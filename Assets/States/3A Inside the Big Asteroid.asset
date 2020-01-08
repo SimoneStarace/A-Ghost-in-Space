@@ -10,13 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5760b41eae4a3f4fa40c23adcd4f6d5, type: 3}
-  m_Name: Credits
+  m_Name: 3A Inside the Big Asteroid
   m_EditorClassIdentifier: 
-  _storyText: 'Credits:
+  _storyText: 'It''s so dark inside the asteroid you had to turn on the ship''s lights.
+    That didn''t stop you from exploring, but suddenly you hear a noise not far from
+    your position.
 
-    Space Background: Miriam Espacio on Pexels.
+
+    What you will do?
 
 
-    1) Come back to the <b>Intro</b>.'
-  _states:
-  - {fileID: 11400000, guid: 2daba931de216dd49956310b202ea7b4, type: 2}
+    1) Check who is making noises.
+
+    2) Ignore the noises and keep exploring.'
+  _states: []

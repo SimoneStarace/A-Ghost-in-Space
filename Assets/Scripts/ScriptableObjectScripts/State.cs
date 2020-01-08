@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
-
 /// <summary>
 /// Class that represent the State of the story.
 /// </summary>
