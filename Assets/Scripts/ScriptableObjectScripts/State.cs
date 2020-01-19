@@ -25,7 +25,6 @@ public class State : ScriptableObject
     {
         return _storyText;
     }
-
     /// <summary>
     /// Get a State through a index
     /// </summary>
@@ -33,11 +32,13 @@ public class State : ScriptableObject
     /// <returns>The State</returns>
     public State GetStateByIndex(int index)
     {
+        //If the index is lower than the number of states in the list.
         if(index < _states.Count)
         {
+            // Return the state
             return _states[index];
         }
-
+        //Return null if there aren't any state.
         return null;
     }
 }

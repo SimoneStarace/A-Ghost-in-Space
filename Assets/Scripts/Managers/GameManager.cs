@@ -4,6 +4,7 @@
 /// </summary>
 public class GameManager : MonoBehaviour
 {
+    #region Member fields
     /// <summary>
     /// Reference to the UI Manager.
     /// </summary>
@@ -14,14 +15,20 @@ public class GameManager : MonoBehaviour
     /// </summary>
     [SerializeField]
     private State _actualState = null;
+    #endregion
 
     void Awake()
     {
-        if(_uiManager = GameObject.FindObjectOfType<UIManager>())
+        //Set the target framerate.
+        ApplicationManager.SetFramerate();
+
+        //Find the UI Manager
+        if(_uiManager = FindObjectOfType<UIManager>())
         {
 #if UNITY_EDITOR
-            Debug.Log("UI Manager found!");
+            Debug.Log("GameManager: UI Manager found!");
 #endif
+            //Update the state of the game.
             _uiManager.UpdateStoryText(_actualState ? _actualState.GetStoryText() : string.Empty);
         }
     }
@@ -30,7 +37,9 @@ public class GameManager : MonoBehaviour
     {
         ManageState();
     }
-
+    /// <summary>
+    /// Manage the state of the game.
+    /// </summary>
     private void ManageState()
     {
         for(byte i = 0;i<9;i++)

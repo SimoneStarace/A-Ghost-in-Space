@@ -18,7 +18,14 @@ public static class ApplicationManager
         }
 #endif
     }
-
+    /// <summary>
+    /// Get the company name of the Game.
+    /// </summary>
+    /// <returns>The company name of the game.</returns>
+    public static string GetCompanyName()
+    {
+        return Application.companyName;
+    }
     /// <summary>
     /// Get the version of the Game.
     /// </summary>
@@ -26,5 +33,13 @@ public static class ApplicationManager
     public static string GetVersion()
     {
         return Application.version;
+    }
+    /// <summary>
+    /// Sets the target framerate of the game.
+    /// </summary>
+    /// <param name="framerate">The framerate to set.</param>
+    public static void SetFramerate(int framerate = 60)
+    {
+        Application.targetFrameRate = framerate;
     }
 }
