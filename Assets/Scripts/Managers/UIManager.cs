@@ -21,6 +21,11 @@ namespace Managers
                                 _uiCompanyText = null,
                                 _uiVersionText = null;
         /// <summary>
+        /// Reference to the quit button.
+        /// </summary>
+        [SerializeField]
+        private UnityEngine.UI.Button _quitButton = null;
+        /// <summary>
         /// Reference to a coroutine.
         /// </summary>
         private Coroutine _textCoroutine; 
@@ -29,6 +34,15 @@ namespace Managers
         #region METHODS
         private void Start()
         {
+#if UNITY_WEBGL
+            //If the quit button is not null.
+            if(_quitButton)
+            {
+                //Make the quit button not interactable.
+                _quitButton.interactable = false;
+            }
+#endif
+
             if (_uiCompanyText)
             {
                 _uiCompanyText.text = $"Made by {ApplicationManager.GetCompanyName()}.";
@@ -68,13 +82,15 @@ namespace Managers
                 }
             }
         }
-
         /// <summary>
         /// Sets the flag of the member field.
         /// </summary>
         /// <param name="flag"></param>
         public void SetShowTextImmediatly(bool flag) => _showTextImmediatly = flag;
-
+        /// <summary>
+        /// Method to close the game when the quit button is pressed.
+        /// </summary>
+        public void OnQuitButtonPressed() => ApplicationManager.CloseApplication();
         /// <summary>
         /// Takes an url for open a webpage.
         /// </summary>

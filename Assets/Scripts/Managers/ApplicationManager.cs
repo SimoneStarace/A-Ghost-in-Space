@@ -37,6 +37,10 @@ namespace Managers
         /// </summary>
         /// <param name="framerate">The framerate to set.</param>
         public static void SetFramerate(int framerate = 60) => Application.targetFrameRate = framerate;
+        /// <summary>
+        /// Method for close the application.
+        /// </summary>
+        public static void CloseApplication() => Application.Quit();
         #endregion
     } 
 }
