@@ -28,21 +28,24 @@ namespace Managers
         /// <summary>
         /// Reference to a coroutine.
         /// </summary>
-        private Coroutine _textCoroutine; 
+        private Coroutine _textCoroutine;
         #endregion
 
-        #region METHODS
-        private void Start()
-        {
 #if UNITY_WEBGL
+        private void Awake()
+        {
             //If the quit button is not null.
-            if(_quitButton)
+            if (_quitButton)
             {
                 //Make the quit button not interactable.
                 _quitButton.interactable = false;
             }
+        }
 #endif
 
+    #region METHODS
+    private void Start()
+        {
             if (_uiCompanyText)
             {
                 _uiCompanyText.text = $"Made by {ApplicationManager.GetCompanyName()}.";

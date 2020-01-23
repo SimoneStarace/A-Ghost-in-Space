@@ -7,7 +7,7 @@ namespace Managers
         /// <summary>
         /// Opens a webpage by url.
         /// </summary>
-        /// <param name="url">The url of the webpage</param>
+        /// <param name="url">The url of the webpage.</param>
         public static void OpenWebPage(string url)
         {
             if (!string.IsNullOrEmpty(url) && url.Contains("https://"))
