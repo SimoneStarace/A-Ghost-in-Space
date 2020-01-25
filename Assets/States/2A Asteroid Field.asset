@@ -15,6 +15,7 @@ MonoBehaviour:
   _storyText: "You decided to enter the Asteroid Field. During your exploration you
     find out a big asteroid where you can enter in:\r\n\r\nWhat you will do?\r\n\r\n1)
     Enter the big asteroid.\r\n2) Ignore it and keep exploring the area."
+  _musicClip: {fileID: 0}
   _states:
   - {fileID: 11400000, guid: 8da9b8154e8c1e04bafe53bc53225aed, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 2041d3522243edd4d8c25399b81228b2, type: 2}

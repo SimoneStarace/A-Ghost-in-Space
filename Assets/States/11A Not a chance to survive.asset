@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5760b41eae4a3f4fa40c23adcd4f6d5, type: 3}
-  m_Name: Game Over
+  m_Name: 11A Not a chance to survive
   m_EditorClassIdentifier: 
-  _storyText: '<b><align="center"><color="red">GAME OVER!</color></align></b>
-
-
-    1) Restart the game.'
-  _musicClip: {fileID: 0}
+  _storyText: "You decided to exit the big asteroid but doing so you found many ships
+    in attack formation ready to fire. They haven't thinked for one second and they
+    started to shoot against you. You and your ship are destroyed.\r\n\r\nBad Ending
+    2: Bad day for me.\r\n\r\n1) Restart the game."
+  _musicClip: {fileID: 8300000, guid: ee5064326d138384aaa0026077f4c23f, type: 3}
   _states:
   - {fileID: 11400000, guid: 2daba931de216dd49956310b202ea7b4, type: 2}

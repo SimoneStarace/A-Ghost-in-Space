@@ -6,7 +6,7 @@ namespace Managers
     /// </summary>
     public class GameManager : MonoBehaviour
     {
-        #region MEMBERFIELDS
+        #region FIELDS
         /// <summary>
         /// Reference to the UI Manager.
         /// </summary>
@@ -45,7 +45,7 @@ namespace Managers
                 Debug.Log("GameManager: Music Manager found!");
 #endif
                 //Set the music for Music Manager.
-                _musicManager.SetMusic(_actualState.GetMusicClip());
+                _musicManager.SetMusicClip(_actualState.GetMusicClip());
             }
         }
 
@@ -94,7 +94,7 @@ namespace Managers
                 if(_musicManager)
                 {
                     //Update the Music.
-                    _musicManager.SetMusic(s.GetMusicClip());
+                    _musicManager.SetMusicClip(s.GetMusicClip());
                 }
             }
         } 

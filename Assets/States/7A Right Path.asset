@@ -10,20 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5760b41eae4a3f4fa40c23adcd4f6d5, type: 3}
-  m_Name: 3A Inside the Big Asteroid
+  m_Name: 7A Right Path
   m_EditorClassIdentifier: 
-  _storyText: 'It''s so dark inside the asteroid so you had to turn on the ship''s
-    lights. That didn''t stop you from exploring, but suddenly you hear a noise not
-    far from your position.
-
-
-    What you will do?
-
-
-    1) Check who is making noises.
-
-    2) Ignore the noises and keep exploring.'
+  _storyText: "Taking this path it seems the noises are weaker and the enviroment
+    is becoming darker. \r\n\r\nWhat will you do?\r\n\r\n1) Turn back and choose another
+    path.\r\n2) Go further."
   _musicClip: {fileID: 0}
   _states:
   - {fileID: 11400000, guid: 202e4c47d1ec5d54bbb0b553b63024bd, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 3d19c15a13f1b4f4e8cc7b7c78e33b18, type: 2}

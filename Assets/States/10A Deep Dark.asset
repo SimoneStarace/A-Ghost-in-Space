@@ -10,28 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5760b41eae4a3f4fa40c23adcd4f6d5, type: 3}
-  m_Name: Credits
+  m_Name: 10A Deep Dark
   m_EditorClassIdentifier: 
-  _storyText: 'Credits:
-
-    --- Fonts ---
-
-    Spacetime by Freetype Fonts (Aquaflame).
-
-    --- Pictures ---
-
-    Space Background by Miriam Espacio.
-
-    --- Musics ---
-
-    "Time to go to space now!" by Komiku.
-
-    "Super Ray" by Monplaisir.
-
-    "Lonely Planet" by Monplaisir.
-
-
-    1) Come back to the intro of the game.'
-  _musicClip: {fileID: 0}
+  _storyText: "It's so dark that you weren't able to see your ships commands and this
+    made your ship to crash inside the Asteroid. \r\n\r\nBad Ending 1: Death in the
+    dark.\r\n\r\n1) You lose."
+  _musicClip: {fileID: 8300000, guid: ee5064326d138384aaa0026077f4c23f, type: 3}
   _states:
   - {fileID: 11400000, guid: 2daba931de216dd49956310b202ea7b4, type: 2}

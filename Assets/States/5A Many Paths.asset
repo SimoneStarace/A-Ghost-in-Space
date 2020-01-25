@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5760b41eae4a3f4fa40c23adcd4f6d5, type: 3}
+  m_Name: 5A Many Paths
+  m_EditorClassIdentifier: 
+  _storyText: "Trying to understand where the noises are coming from it's pretty hard
+    since there isn't any indication of where are you going and during your exploration
+    there are 3 paths in front of you. \r\n\r\nWhich one you will take?\r\n\r\n1)
+    Right path.\r\n2) Center path.\r\n3) Left path."
+  _musicClip: {fileID: 0}
+  _states:
+  - {fileID: 11400000, guid: bf3198a11d0d2dc4b8fe8ac72c8c7777, type: 2}
+  - {fileID: 11400000, guid: 00f03799b77385d469ffb42528d53a4b, type: 2}
+  - {fileID: 11400000, guid: 243c0ab4a5195b54485c29b4b5e8fb23, type: 2}

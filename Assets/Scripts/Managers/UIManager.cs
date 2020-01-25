@@ -21,30 +21,13 @@ namespace Managers
                                 _uiCompanyText = null,
                                 _uiVersionText = null;
         /// <summary>
-        /// Reference to the quit button.
-        /// </summary>
-        [SerializeField]
-        private UnityEngine.UI.Button _quitButton = null;
-        /// <summary>
         /// Reference to a coroutine.
         /// </summary>
         private Coroutine _textCoroutine;
         #endregion
 
-#if UNITY_WEBGL
-        private void Awake()
-        {
-            //If the quit button is not null.
-            if (_quitButton)
-            {
-                //Make the quit button not interactable.
-                _quitButton.interactable = false;
-            }
-        }
-#endif
-
     #region METHODS
-    private void Start()
+        private void Start()
         {
             if (_uiCompanyText)
             {

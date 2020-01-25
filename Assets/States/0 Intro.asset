@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5760b41eae4a3f4fa40c23adcd4f6d5, type: 3}
   m_Name: 0 Intro
   m_EditorClassIdentifier: 
-  _storyText: 'Welcome to <b>A Ghost in Space</b> a <u>Text Adventure</u> game made
-    by <b>Simone Starace</b> for the <b>GameDev.TV</b> course "<b>Complete C# Unity
-    Developer 2D: Learn to Code Making Games</b>".
+  _storyText: 'Welcome to A Ghost in Space a Text Adventure game made by Simone Starace
+    for the GameDev.TV course "Complete C# Unity Developer 2D: Learn to Code Making
+    Games".
 
     To play the game you must have a keyboard and press one number button based on
     the options available in the next.

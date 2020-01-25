@@ -10,13 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5760b41eae4a3f4fa40c23adcd4f6d5, type: 3}
-  m_Name: 1 Beginning
+  m_Name: 4A Nothing Around Here
   m_EditorClassIdentifier: 
-  _storyText: "You're travelling through space alone. During your journey you find
-    yourself in front of an asteroid field and on the left a mysterious ship you've
-    never seen before.\r\n\r\nWhat you will do?\n\n1) Enter the Asteroid field.\r\n2)
-    Follow the Misterious Ship."
-  _musicClip: {fileID: 8300000, guid: 47d570d68cc9b084fbb85b895ae7f3e5, type: 3}
+  _storyText: "As you keep exploring the asteroid field it seems there are only asteroids
+    and nothing else.\r\n\r\n1) Go back to where is the Big Asteroid. "
+  _musicClip: {fileID: 0}
   _states:
   - {fileID: 11400000, guid: 179721adaa9fa634aba2a64ded6de147, type: 2}
-  - {fileID: 11400000, guid: e12c605fdb543b648998fc3dfe759129, type: 2}
