@@ -26,4 +26,4 @@ MonoBehaviour:
   _musicClip: {fileID: 0}
   _states:
   - {fileID: 11400000, guid: 202e4c47d1ec5d54bbb0b553b63024bd, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 7580d067ed78aab41840c9948a05445b, type: 2}

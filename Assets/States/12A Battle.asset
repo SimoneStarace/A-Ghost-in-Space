@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5760b41eae4a3f4fa40c23adcd4f6d5, type: 3}
   m_Name: 12A Battle
   m_EditorClassIdentifier: 
-  _storyText: 
+  _storyText: "There are some space ship fighting against some kind of creature. They
+    are shooting at it but the lasers pass through the body of the creature.\r\n\r\nWhat
+    will you do?\r\n\r\n1) Hide until the battle is over.\r\n2) Fire against the creature."
   _musicClip: {fileID: 0}
   _states:
-  - {fileID: 11400000, guid: 202e4c47d1ec5d54bbb0b553b63024bd, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 5e3d256d36e4bcd4fb026f0ec4856d5f, type: 2}
+  - {fileID: 11400000, guid: 27210649effae7f4f896837700d3b708, type: 2}

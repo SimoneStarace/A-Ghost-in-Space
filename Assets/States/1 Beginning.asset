@@ -19,4 +19,3 @@ MonoBehaviour:
   _musicClip: {fileID: 8300000, guid: 47d570d68cc9b084fbb85b895ae7f3e5, type: 3}
   _states:
   - {fileID: 11400000, guid: 179721adaa9fa634aba2a64ded6de147, type: 2}
-  - {fileID: 11400000, guid: e12c605fdb543b648998fc3dfe759129, type: 2}

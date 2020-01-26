@@ -10,13 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5760b41eae4a3f4fa40c23adcd4f6d5, type: 3}
-  m_Name: 8A Center Path
+  m_Name: 6A Ignoring the noises is useless
   m_EditorClassIdentifier: 
-  _storyText: "Taking this path it seems the noises are stronger than before. Those
-    noises are laser shots from other space ships so there is a battle going on.\n\nWhat
-    will you do?\r\n\r\n1) Turn back and choose another path.\r\n2) See what's going
-    on."
+  _storyText: "It seems that even if you try to ignore the noises you still hear it.\r\n\r\n1)
+    Go to where you hear the noises."
   _musicClip: {fileID: 0}
   _states:
   - {fileID: 11400000, guid: 202e4c47d1ec5d54bbb0b553b63024bd, type: 2}
-  - {fileID: 11400000, guid: 84096207e20d0e34cb08581f7c698f9d, type: 2}

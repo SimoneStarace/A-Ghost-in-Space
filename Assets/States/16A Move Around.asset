@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5760b41eae4a3f4fa40c23adcd4f6d5, type: 3}
+  m_Name: 16A Move Around
+  m_EditorClassIdentifier: 
+  _storyText: "After you watched that battle there is only thing to do right now.
+    Going out from the asteroid. You are desperate to find an exit and finally you
+    find it but as you try to go to the exit the ghost creature appeared again.\r\n\r\nWhat
+    will you do?\r\n\r\n1) Pass through it.\r"
+  _musicClip: {fileID: 0}
+  _states:
+  - {fileID: 11400000, guid: c2285b56c111f4a48b008b957f811e76, type: 2}

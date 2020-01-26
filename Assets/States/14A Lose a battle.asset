@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5760b41eae4a3f4fa40c23adcd4f6d5, type: 3}
+  m_Name: 14A Lose a battle
+  m_EditorClassIdentifier: 
+  _storyText: "You decided to fight with the other space ships but the creature attacked
+    all of you and all the ships are destroyed.\r\n\r\nBad Ending 3: Defeated\r\n\r\n1)
+    Restart the game."
+  _musicClip: {fileID: 8300000, guid: ee5064326d138384aaa0026077f4c23f, type: 3}
+  _states:
+  - {fileID: 11400000, guid: 2daba931de216dd49956310b202ea7b4, type: 2}
