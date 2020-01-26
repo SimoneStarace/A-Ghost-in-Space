@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _storyText: "You're travelling through space alone. During your journey you find
     yourself in front of an asteroid field and on the left a mysterious ship you've
-    never seen before.\r\n\r\nWhat you will do?\n\n1) Enter the Asteroid field.\r\n2)
-    Follow the Misterious Ship."
+    never seen before.\r\n\r\nWhat you will do?\n\n1) Enter the Asteroid field.\r"
   _musicClip: {fileID: 8300000, guid: 47d570d68cc9b084fbb85b895ae7f3e5, type: 3}
   _states:
   - {fileID: 11400000, guid: 179721adaa9fa634aba2a64ded6de147, type: 2}
