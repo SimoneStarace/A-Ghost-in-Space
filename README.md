@@ -5,4 +5,4 @@ Is a Text Adventure game made in Unity as a challenge for the course "[Complete 
 
 ## How to play the game
 You can play this game on the following web site:
-- ![ShareMyGame.com](https://sharemygame.com/@Reaver/a-ghost-in-space)
+- [ShareMyGame.com](https://sharemygame.com/@Reaver/a-ghost-in-space)
